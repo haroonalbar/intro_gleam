@@ -16,6 +16,7 @@ version = "1.0.0"
 gleam_stdlib = "~> 0.34 or ~> 1.0"
 envoy = "~> 1.0"
 argv = "~> 1.0"
+local_package = {path = "./local_package"}
 
 [dev-dependencies]
 gleeunit = "~> 1.0"
