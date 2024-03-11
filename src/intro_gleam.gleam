@@ -6,7 +6,7 @@ import gleam/result
 pub fn main() {
   case argv.load().arguments {
   ["get",name] -> get(name)
-  _-> io.println("Usage: intro_gleam get <name>")
+  _ -> io.println("Usage: gleam run get <name>")
   }
 }
 
